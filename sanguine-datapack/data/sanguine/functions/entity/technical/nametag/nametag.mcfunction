@@ -1,0 +1,2 @@
+advancement revoke @s only sanguine:technical/player_interacted_with_entity/nametag
+execute as @e[type=#sanguine:blood_moon_monster,tag=sanguine.blood_moon_monster,predicate=sanguine:entity/nametag/base,sort=nearest,limit=1] run function sanguine:entity/technical/nametag/remove_tags

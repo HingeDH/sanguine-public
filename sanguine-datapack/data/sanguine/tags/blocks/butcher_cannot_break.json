@@ -1,0 +1,21 @@
+{
+	"values": [
+		"#minecraft:wither_immune",
+		"minecraft:obsidian",
+		"minecraft:crying_obsidian",
+		"minecraft:enchanting_table",
+		"minecraft:ender_chest",
+		"minecraft:respawn_anchor",
+		"minecraft:netherite_block",
+		"minecraft:ancient_debris",
+		"minecraft:iron_block",
+		"minecraft:raw_iron_block",
+		"minecraft:diamond_block",
+		"minecraft:lava",
+		"minecraft:water",
+		"minecraft:sculk_shrieker",
+		"minecraft:sculk_catalyst",
+		"minecraft:budding_amethyst",
+		"minecraft:lodestone"
+	]
+}

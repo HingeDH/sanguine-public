@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361007,sanguine:{chalice_state:1}}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{sanguine:{chalice_state:0}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361006,sanguine:{chalice_state:0}}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{sanguine:{chalice_state:1}}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

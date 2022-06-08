@@ -1,0 +1,75 @@
+{
+	"parent": "minecraft:item/handheld_rod",
+	"textures": {
+	  "layer0": "minecraft:item/carrot_on_a_stick"
+	},
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 8361000
+		},
+		"model": "sanguine:item/butcher_horn"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361001
+		},
+		"model": "sanguine:item/sacrificial_knife"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361002
+		},
+		"model": "sanguine:item/sacrificial_knife_tipped"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361003
+		},
+		"model": "sanguine:item/sacrificial_knife_dripping"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361004
+		},
+		"model": "sanguine:item/sacrificial_knife_drenched"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361005
+		},
+		"model": "sanguine:item/butcher_skull"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361006
+		},
+		"model": "sanguine:item/sanguine_chalice"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361007
+		},
+		"model": "sanguine:item/sanguine_chalice_full"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361008
+		},
+		"model": "sanguine:item/blood_oath"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361009
+		},
+		"model": "sanguine:item/effigy"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361010
+		},
+		"model": "sanguine:item/blood_binding"
+	  }
+	]
+}
+  

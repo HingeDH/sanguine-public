@@ -1,0 +1,27 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "bind": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:carrot_on_a_stick"
+          ],
+          "nbt": "{sanguine:{id:\"blood_binding\"}}"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"sanguine.effigy\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bind"
+    ]
+  ],
+  "rewards": {
+    "function": "sanguine:block/effigy/interact/raycast_start"
+  }
+}

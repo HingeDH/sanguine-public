@@ -1,0 +1,1 @@
+execute unless entity @s[tag=sanguine.reaper.located_player] if entity @a[distance=..16,gamemode=!creative,gamemode=!spectator] anchored eyes facing entity @p[gamemode=!creative,gamemode=!spectator] eyes run function sanguine:entity/reaper/find_player

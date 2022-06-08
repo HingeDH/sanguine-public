@@ -1,0 +1,51 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:carrot_on_a_stick"
+                    ],
+                    "nbt": "{sanguine:{id:\"sacrificial_knife\"}}"
+                  }
+                }
+              }
+            }
+          ],
+          "entity": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"sanguine.entity.blood_entity\"]}"
+                  }
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "sanguine:entity/blood_entity"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "sanguine:item/sacrificial_knife/clean"
+    }
+  }
+  

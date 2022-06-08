@@ -1,0 +1,134 @@
+{
+	"credit": "Made with Blockbench, Modeller: ElBones",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "sanguine:entity/offal/offal_unhinged",
+		"particle": "sanguine:entity/offal/offal_unhinged"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [1, 0, 1],
+			"to": [15, 18, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [3.5, 3.5, 7, 8], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 3.5, 3.5, 8], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [10.5, 3.5, 14, 8], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [7, 3.5, 10.5, 8], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [3.5, 0, 7, 3.5], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [7, 0, 10.5, 3.5], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Body Inverted",
+			"from": [15, 18, 15],
+			"to": [1, 0, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [10.5, 8, 14, 3.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [7, 8, 10.5, 3.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [3.5, 8, 7, 3.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 8, 3.5, 3.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [10.5, 0, 7, 3.5], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [7, 0, 3.5, 3.5], "rotation": 180, "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Mouth",
+			"from": [15, 11, 6],
+			"to": [1, 2, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [12.5, 10.25, 16, 8], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [16, 10.25, 12.5, 11.5], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [16, 12.75, 12.5, 11.5], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Bones",
+			"from": [0, 11, 6],
+			"to": [18, 24, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 11, 5]},
+			"faces": {
+				"north": {"uv": [11.5, 12.75, 16, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [16, 12.75, 11.5, 16], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Blob0",
+			"from": [15, 0, 2],
+			"to": [18, 4, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 0, 4]},
+			"faces": {
+				"north": {"uv": [1, 9, 1.75, 10], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 9, 1, 10], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [2.75, 9, 3.5, 10], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0.75, 8, 1.5, 9], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.5, 8, 2.25, 9], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Blob1",
+			"from": [-2, 0, 6],
+			"to": [1, 5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 8.5]},
+			"faces": {
+				"north": {"uv": [1.25, 11.25, 2, 12.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [3.25, 11.25, 4, 12.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [2, 11.25, 3.25, 12.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0.75, 10, 1.5, 11.25], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.5, 10, 2.25, 11.25], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Blob2",
+			"from": [2, 5, 15],
+			"to": [8, 11, 17],
+			"rotation": {"angle": 0, "axis": "x", "origin": [5.5, 8.5, 15]},
+			"faces": {
+				"north": {"uv": [3, 12.5, 4.5, 14], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 14, 1.5, 14.5], "rotation": 270, "texture": "#0", "tintindex": 0},
+				"south": {"uv": [1.5, 12.5, 3, 14], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [3, 14, 4.5, 14.5], "rotation": 90, "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.5, 14, 3, 14.5], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [4.5, 14, 6, 14.5], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Blob3",
+			"from": [7, 18, 8],
+			"to": [13, 20, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 18, 11]},
+			"faces": {
+				"north": {"uv": [1.5, 14, 3, 14.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 14, 1.5, 14.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [4.5, 14, 6, 14.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [3, 14, 4.5, 14.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.5, 12.5, 3, 14], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [3, 12.5, 4.5, 14], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -32, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Body",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		},
+		3,
+		{
+			"name": "Blobs",
+			"origin": [10, 14, 11],
+			"color": 0,
+			"children": [4, 5, 6, 7]
+		}
+	]
+}

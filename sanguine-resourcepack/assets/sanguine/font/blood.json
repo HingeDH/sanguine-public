@@ -1,0 +1,13 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "sanguine:gui/blood_drop.png",
+        "height": 9,
+        "ascent": 9,
+        "chars": [
+          "A"
+        ]
+      }
+    ]
+  }

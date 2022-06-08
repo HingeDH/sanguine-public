@@ -1,0 +1,53 @@
+[
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:reference",
+          "name": "sanguine:entity/holding/effigy"
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 0,
+      "offsetY": 1,
+      "offsetZ": 0,
+      "predicate": {
+        "block": {
+          "tag": "sanguine:air"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "tag": "sanguine:air"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "offsetX": 0,
+        "offsetY": -1,
+        "offsetZ": 0,
+        "predicate": {
+          "block": {
+            "tag": "sanguine:non_solid"
+          }
+        }
+      }
+    }
+  ]
+  

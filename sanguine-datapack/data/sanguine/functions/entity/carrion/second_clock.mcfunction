@@ -1,0 +1,1 @@
+execute unless entity @s[tag=sanguine.carrion.flesh_hook] run function sanguine:entity/carrion/second_clock_no_whip

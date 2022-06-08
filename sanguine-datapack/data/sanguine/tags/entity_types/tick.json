@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:marker",
+    "minecraft:armor_stand",
+    "minecraft:zombie",
+    "minecraft:wandering_trader"
+  ]
+}

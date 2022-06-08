@@ -1,0 +1,1 @@
+execute as @a at @s run function sanguine:entity/player/ten_second_clock

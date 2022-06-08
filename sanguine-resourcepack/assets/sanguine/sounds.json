@@ -1,0 +1,286 @@
+{
+  "ambient.blood_moon.loop": {
+    "sounds": [
+      "sanguine:ambience/blood_moon/loop/loop0",
+      "sanguine:ambience/blood_moon/loop/loop1",
+      "sanguine:ambience/blood_moon/loop/loop2",
+      "sanguine:ambience/blood_moon/loop/loop4",
+      "sanguine:ambience/blood_moon/loop/loop5",
+      "sanguine:ambience/blood_moon/loop/loop6"
+    ]
+  },
+  "ambient.blood_moon.warning": {
+    "sounds": [
+      "sanguine:ambience/blood_moon/warning"
+    ]
+  },
+  "block.strange_egg.grow": {
+    "subtitle": "subtitle.sanguine.strange_egg.grow",
+    "sounds": [
+      "sanguine:block/strange_egg/grow1",
+      "sanguine:block/strange_egg/grow2",
+      "sanguine:block/strange_egg/grow3"
+    ]
+  },
+  "block.strange_egg.ignite": {
+    "subtitle": "subtitle.sanguine.strange_egg.ignite",
+    "sounds": [
+      "sanguine:block/strange_egg/ignite1",
+      "sanguine:block/strange_egg/ignite2",
+      "sanguine:block/strange_egg/ignite3"
+    ]
+  },
+  "block.strange_egg.melt": {
+    "subtitle": "subtitle.sanguine.strange_egg.melt",
+    "sounds": [
+      "sanguine:block/strange_egg/melt"
+    ]
+  },
+  "block.strange_egg.hatch": {
+    "subtitle": "subtitle.sanguine.strange_egg.hatch",
+    "sounds": [
+      "sanguine:block/strange_egg/hatch"
+    ]
+  },
+  "entity.unborn.idle": {
+    "subtitle": "subtitle.sanguine.unborn.idle",
+    "sounds": [
+      "sanguine:entity/unborn/idle1",
+      "sanguine:entity/unborn/idle2",
+      "sanguine:entity/unborn/idle3"
+    ]
+  },
+  "entity.unborn.hurt": {
+    "subtitle": "subtitle.sanguine.unborn.hurt",
+    "sounds": [
+      "sanguine:entity/unborn/hurt1",
+      "sanguine:entity/unborn/hurt2"
+    ]
+  },
+  "entity.unborn.death": {
+    "subtitle": "subtitle.sanguine.unborn.death",
+    "sounds": [
+      "sanguine:entity/unborn/death"
+    ]
+  },
+  "entity.unborn.bite": {
+    "subtitle": "subtitle.sanguine.unborn.bite",
+    "sounds": [
+      "sanguine:entity/unborn/bite"
+    ]
+  },
+  "entity.offal.slide": {
+    "subtitle": "subtitle.sanguine.offal.slide",
+    "sounds": [
+      "sanguine:entity/offal/slide0",
+      "sanguine:entity/offal/slide1",
+      "sanguine:entity/offal/slide2"
+    ]
+  },
+  "entity.offal.hurt": {
+    "subtitle": "subtitle.sanguine.offal.hurt",
+    "sounds": [
+      "sanguine:entity/offal/hurt0",
+      "sanguine:entity/offal/hurt1",
+      "sanguine:entity/offal/hurt2",
+      "sanguine:entity/offal/hurt3"
+    ]
+  },
+  "entity.offal.death": {
+    "subtitle": "subtitle.sanguine.offal.death",
+    "sounds": [
+      "sanguine:entity/offal/death0",
+      "sanguine:entity/offal/death1"
+    ]
+  },
+  "entity.reaper.idle": {
+    "subtitle": "subtitle.sanguine.reaper.idle",
+    "sounds": [
+      "sanguine:entity/reaper/idle0",
+      "sanguine:entity/reaper/idle1",
+      "sanguine:entity/reaper/idle2"
+    ]
+  },
+  "entity.reaper.hurt": {
+    "subtitle": "subtitle.sanguine.reaper.hurt",
+    "sounds": [
+      "sanguine:entity/reaper/hurt0",
+      "sanguine:entity/reaper/hurt1",
+      "sanguine:entity/reaper/hurt2"
+    ]
+  },
+  "entity.reaper.death": {
+    "subtitle": "subtitle.sanguine.reaper.death",
+    "sounds": [
+      "sanguine:entity/reaper/death"
+    ]
+  },
+  "entity.reaper.prime": {
+    "subtitle": "subtitle.sanguine.reaper.prime",
+    "sounds": [
+      "sanguine:entity/reaper/fuse"
+    ]
+  },
+  "entity.reaper.explode": {
+    "subtitle": "subtitle.sanguine.reaper.explode",
+    "sounds": [
+      "sanguine:entity/reaper/explode"
+    ]
+  },
+  "entity.carrion.idle": {
+    "subtitle": "subtitle.sanguine.carrion.idle",
+    "sounds": [
+      "sanguine:entity/offal/slide0",
+      "sanguine:entity/offal/slide1",
+      "sanguine:entity/offal/slide2"
+    ]
+  },
+  "entity.carrion.hurt": {
+    "subtitle": "subtitle.sanguine.carrion.hurt",
+    "sounds": [
+      "sanguine:entity/offal/hurt0",
+      "sanguine:entity/offal/hurt1",
+      "sanguine:entity/offal/hurt2",
+      "sanguine:entity/offal/hurt3"
+    ]
+  },
+  "entity.carrion.death": {
+    "subtitle": "subtitle.sanguine.carrion.death",
+    "sounds": [
+      "sanguine:entity/offal/death0",
+      "sanguine:entity/offal/death1"
+    ]
+  },
+  "entity.carrion.hatch": {
+    "subtitle": "subtitle.sanguine.carrion.hatch",
+    "sounds": [
+      "sanguine:entity/carrion/trigger0",
+      "sanguine:entity/carrion/trigge1"
+    ]
+  },
+  "entity.carrion.whip": {
+    "subtitle": "subtitle.sanguine.carrion.whip",
+    "sounds": [
+      "sanguine:entity/offal/hurt0",
+      "sanguine:entity/offal/hurt1"
+    ]
+  },
+  "entity.carrion.whip_end": {
+    "subtitle": "subtitle.sanguine.carrion.whip_end",
+    "sounds": [
+      "sanguine:entity/offal/hurt0",
+      "sanguine:entity/offal/hurt1"
+    ]
+  },
+  "entity.carrion.trap": {
+    "subtitle": "subtitle.sanguine.carrion.trap",
+    "sounds": [
+      "sanguine:entity/unborn/bite"
+    ]
+  },
+  "entity.gurgle.idle": {
+    "subtitle": "subtitle.sanguine.gurgle.idle",
+    "sounds": [
+      "sanguine:entity/gurgle/idle0",
+      "sanguine:entity/gurgle/idle1",
+      "sanguine:entity/gurgle/idle2"
+    ]
+  },
+  "entity.gurgle.hurt": {
+    "subtitle": "subtitle.sanguine.gurgle.hurt",
+    "sounds": [
+      "sanguine:entity/gurgle/hurt0",
+      "sanguine:entity/gurgle/hurt1",
+      "sanguine:entity/gurgle/hurt2"
+    ]
+  },
+  "entity.gurgle.death": {
+    "subtitle": "subtitle.sanguine.gurgle.death",
+    "sounds": [
+      "sanguine:entity/gurgle/death"
+    ]
+  },
+  "entity.gurgle.gag": {
+    "subtitle": "subtitle.sanguine.gurgle.gag",
+    "sounds": [
+      "sanguine:entity/gurgle/gag0",
+      "sanguine:entity/gurgle/gag1"
+    ]
+  },
+  "entity.gurgle.spit": {
+    "subtitle": "subtitle.sanguine.gurgle.spit",
+    "sounds": [
+      "sanguine:entity/gurgle/spit0",
+      "sanguine:entity/gurgle/spit1"
+    ]
+  },
+  "entity.gurgle.explode": {
+    "subtitle": "subtitle.sanguine.gurgle.explode",
+    "sounds": [
+      "sanguine:entity/gurgle/explode0",
+      "sanguine:entity/gurgle/explode1"
+    ]
+  },
+  "entity.butcher.idle": {
+    "subtitle": "subtitle.sanguine.butcher.idle",
+    "sounds": [
+      "sanguine:entity/butcher/idle0",
+      "sanguine:entity/butcher/idle1"
+    ]
+  },
+  "entity.butcher.hurt": {
+    "subtitle": "subtitle.sanguine.butcher.hurt",
+    "sounds": [
+      "sanguine:entity/butcher/hurt0",
+      "sanguine:entity/butcher/hurt1",
+      "sanguine:entity/butcher/hurt2"
+    ]
+  },
+  "entity.butcher.death": {
+    "subtitle": "subtitle.sanguine.butcher.death",
+    "sounds": [
+      "sanguine:entity/butcher/hurt0",
+      "sanguine:entity/butcher/hurt1",
+      "sanguine:entity/butcher/hurt2"
+    ]
+  },
+  "entity.butcher.charge_start": {
+    "subtitle": "subtitle.sanguine.butcher.charge_start",
+    "sounds": [
+      "sanguine:entity/butcher/charge_start"
+    ]
+  },
+  "entity.butcher.charge_end": {
+    "subtitle": "subtitle.sanguine.butcher.charge_end",
+    "sounds": [
+      "sanguine:entity/butcher/charge_end"
+    ]
+  },
+  "entity.butcher.horn_crack": {
+    "subtitle": "subtitle.sanguine.butcher.horn_crack",
+    "sounds": [
+      "sanguine:entity/butcher/charge_end"
+    ]
+  },
+  "item.sacrificial_knife.stab": {
+    "subtitle": "sanguine.subtitle.sacrificial_knife.stab",
+    "sounds": [
+      "sanguine:item/sacrificial_knife0",
+      "sanguine:item/sacrificial_knife1",
+      "sanguine:item/sacrificial_knife2"
+    ]
+  },
+  "entity.player.harvest_blood": {
+    "subtitle": "sanguine.subtitle.player.harvest_blood",
+    "sounds": [
+      "sanguine:entity/player/harvest_blood0",
+      "sanguine:entity/player/harvest_blood1"
+    ]
+  },
+  "item.sanguine_chalice": {
+    "subtitle": "sanguine.subtitle.sanguine_chalice",
+    "sounds": [
+      "sanguine:item/sanguine_chalice"
+    ]
+  }
+}

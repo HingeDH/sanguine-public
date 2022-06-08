@@ -1,0 +1,1 @@
+execute if entity @s[tag=sanguine.effigy.start] run function sanguine:block/effigy/place/initiate

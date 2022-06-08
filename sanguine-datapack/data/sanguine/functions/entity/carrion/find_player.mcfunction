@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ #sanguine:rain_blocking if entity @s[distance=..16] positioned ^ ^ ^0.1 run function sanguine:entity/carrion/find_player
+execute unless block ~ ~ ~ #sanguine:rain_blocking if entity @s[distance=..16] positioned ^ ^ ^0.1 if entity @a[distance=..2,gamemode=!creative,gamemode=!spectator] run tag @s add sanguine.carrion.located_player

@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/blister"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/blood_barrier"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/blood_deviant"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/chthonic_canny"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/glass_heart"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/gory_glory"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/heritage"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/punished_heart"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/rebirth"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/scarred_tissue"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/selfish_heart"
+        },
+		{
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/swift_strike"
+        }
+      ]
+    }
+  ]
+}

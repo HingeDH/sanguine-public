@@ -1,0 +1,2 @@
+execute store success score @s sanguine.dummy run data get entity @s AngryAt
+execute unless score @s sanguine.dummy matches 1 run data modify entity @s AngryAt set from entity @e[type=#sanguine:tick,tag=sanguine.entity,sort=nearest,limit=1,distance=..16] UUID

@@ -1,0 +1,21 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "click_jewelry_table": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"sanguine:credence\",\"translate\":\"block.sanguine.credence.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.sanguine.credence\"}]}'}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:block/credence/enter_gui"
+  }
+}

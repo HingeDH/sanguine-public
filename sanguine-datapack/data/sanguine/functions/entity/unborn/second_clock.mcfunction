@@ -1,0 +1,2 @@
+execute unless score @s sanguine.dummy matches 1 anchored eyes positioned ^ ^ ^1 positioned ~ ~-0.5 ~ if entity @a[gamemode=!creative,gamemode=!spectator,distance=..2] run function sanguine:entity/unborn/attack
+execute if score @s sanguine.dummy matches 1.. if predicate sanguine:chance/0.33 run scoreboard players remove @s sanguine.dummy 1

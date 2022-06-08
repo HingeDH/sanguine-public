@@ -1,0 +1,1 @@
+execute if data block ~ ~ ~ {Items:[{tag:{sanguine:{placed_block:1b,block:"credence"}}}]} run function sanguine:block/credence/place/place

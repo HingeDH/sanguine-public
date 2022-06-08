@@ -1,0 +1,7 @@
+{
+ "values":[
+   "sanguine:technical/load",
+   "sanguine:technical/second_clock",
+   "sanguine:technical/ten_second_clock"
+  ]
+}

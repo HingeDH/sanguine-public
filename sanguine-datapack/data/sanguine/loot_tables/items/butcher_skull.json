@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:0},AttributeModifiers:[{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Name:\"minecraft:generic.armor\",Operation:0,UUID:[I;8,3,6,2]},{Amount:0.02d,Slot:\"head\",AttributeName:\"minecraft:generic.movement_speed\",Name:\"minecraft:generic.movement_speed\",Operation:0,UUID:[I;8,3,6,2]}],HideFlags:68,Unbreakable:1b,sanguine:{id:\"butcher_skull\",durability:[256,256],repaired:1b},CustomModelData:8361000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.butcher_skull",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    256,
+                    256
+                  ]
+                },
+                {
+                  "translate": "pack.sanguine",
+                  "color": "#880f0f",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute unless entity @s[tag=sanguine.reaper.found] unless block ~ ~ ~ #sanguine:rain_blocking if entity @s[distance=..6] positioned ^ ^ ^0.1 run function sanguine:entity/reaper/raycast
+execute unless entity @s[tag=sanguine.reaper.found] unless block ~ ~ ~ #sanguine:rain_blocking if entity @s[distance=..6] positioned ^ ^ ^0.1 if entity @a[distance=..2,gamemode=!creative,gamemode=!spectator] run tag @s add sanguine.reaper.found
