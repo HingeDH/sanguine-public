@@ -17,7 +17,7 @@
                 {
                   "translate": "pack.sanguine",
                   "color": "#880f0f",
-                  "italic": false
+                  "italic": true
                 }
               ]
             },

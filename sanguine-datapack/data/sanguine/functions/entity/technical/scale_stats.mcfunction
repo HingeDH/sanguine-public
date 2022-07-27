@@ -12,7 +12,7 @@ execute if score #sanguine.blood_moon.level sanguine.dummy matches 8 run functio
 execute if score #sanguine.blood_moon.level sanguine.dummy matches 9 run function sanguine:entity/technical/scale_stats/9
 execute if score #sanguine.blood_moon.level sanguine.dummy matches 10.. run function sanguine:entity/technical/scale_stats/10
 
-data modify entity @s Health set from entity @s Attributes[{Name:"minecraft:generic.max_health"}]
-
 execute if entity @s[type=zombie,tag=!sanguine.entity] run function sanguine:entity/technical/scale_stats/zombie
 execute if entity @s[type=skeleton,tag=!sanguine.entity] run function sanguine:entity/technical/scale_stats/skeleton
+
+execute store result entity @s Health int 1 run attribute @s minecraft:generic.max_health get
